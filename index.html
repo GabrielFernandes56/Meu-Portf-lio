@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonte google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--fim -->
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--fim icons-->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="java.js" defer></script>
+
+    <title>Portifolio Gabriel</title>
+</head>
+<body>
+   
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="">
+                    <img src="imagens/logo_transparent.png" alt="Logo do meu portifolio">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#secao1">Inicio</a></li>
+                    <li><a href="#secao2">Especialidades</a></li>
+                    <li><a href="#secao3">Sobre</a></li>
+                    <li><a href="#secao4">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="bnt-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--bnt-fechar-->
+                
+                <nav>
+                    <ul>
+                        <li><a href="#secao1">Inicio</a></li>
+                        <li><a href="#secao2">Especialidades</a></li>
+                        <li><a href="#secao3">Sobre</a></li>
+                        <li><a href="#secao4">Projetos</a></li>
+                        <li><a href="#secao5">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-->
+            <div class="overlay-menu" id="over"> </div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="Topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 id="secao1">CODIFICANDO O FUTURO UM PIXEL DE CADA VEZ<span>.</span></h1>
+                        <p>Olá! Sou o Gabriel, tenho 21 anos, atualmente estou finalizando o curso de análise e desenvolvimento de sistemas e embarcando numa nova jornada no curso de engenharia de software. Desde pequeno fascinado por programação e tecnologia, sempre em busca de transformar ideias em soluções digitais.
+                        </p>
+                        <div class="btn-contato">
+                            <a href="">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="imagens/Pessoa.png" alt="">
+                    </div><!--img topo site-->
+                </div>
+            </div> <!--interface-->
+        </section><!--topo do site-->
+
+        <section class="Especialidades">
+            <div class="interface">
+                <h2 class="titulo" id="secao2">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-java"></i>
+                        <h3>Java</h3>
+                        <p>Java é a linguagem que mais utilizei, e a qual me apaixonei
+                            usei ele e seus principais frameworks como o Springboot, abrindo
+                            oportunidade tanto para o backend quanto para o frontend.
+                        </p>
+                    </div><!--Especialidades-box-->
+
+                    <div class="especialidades-box">
+                        
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>Javascript</h3>
+                        <p>Javascript foi a segunda linguagem a qual quis me aprofundar,
+                            sendo a que mais tive prazer em aprender, junto de seus principais frameworks
+                            no qual me foquei muito no jquery.
+                        </p>
+                    </div><!--Especialidades-box-->
+
+                    <div class="especialidades-box">
+                            <i class="bi bi-filetype-php"></i>
+                        <h3>PHP</h3>
+                        <p> PHP é uma das linguagens mais importantes para quem codificar paginas web dinâmicas
+                            que interagem com banco de dados.
+                        </p>
+                    </div><!--Especialidades-box-->
+                </div><!--flex-->
+            
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="imagens/file.jpg" alt="">
+                    </div><!--img-sobre-->
+                    <div class="txt-sobre">
+                        <h2 id="secao3">MUITO PRAZER, <span>SOU GABRIEL FERNANDES.</span></h2>
+                        <P>Sou Gabriel, tenho 21 anos e estou prestes a me formar em análise e desenvolvimento de sistemas, além de ser calouro em engenharia de software. Desde cedo, me apaixonei por programação e tecnologia, sempre buscando aprimorar minhas habilidades e expandir meu conhecimento, sempre tentando ser autêntico e criativo
+                        </P>
+                        <p>Minhas principais especialidades incluem Java, javascript, jquery, CSS,HTML,spring boot e PHP. Tecnologias essas que fomentam meu lado criativo me permitindo a fazer projetos tanto em backend robusto até interfaces dinâmicas e interativas. Estou constantemente tentando me aprimorar e buscando oportunidades de demonstrar tudo o que aprendi.</p>
+                        <div class="btn-social">
+                            <a href="https://github.com/GabrielFernandes56"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/gabriel-fernandes-da-silva-2b637b241/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div>
+                    </div> <!--txt-sobre-->
+                    
+                        
+                    
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section>
+
+        <section class="Portifolio">
+            <div class="interface">
+                <h2 class="titulo" id="secao4">MEU <SPAN>PORTIFÓLIO.</SPAN></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(imagens/Unes.png);"> 
+                        <div class="overlay">
+                            <a href="https://projetouniversidadeunes.netlify.app/">Universidade UNES</a>
+                        </div>  
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portifolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo" id="secao5">FALE <span>COMIGO.</span></h2>
+                <form action="">
+                    <input type="text" class="text" placeholder="Seu nome completo:" required>
+                    <input type="text" class="text" placeholder="Seu e-mail:" required>
+                    <input type="text" class="text" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div><!--interface-->
+        </section><!--formuulario-->
+    </main>
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <img src="imagens/logo_transparent.png" alt="">
+                        </div>
+                        <div class="btn-social">
+                            <a href="https://github.com/GabrielFernandes56"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/gabriel-fernandes-da-silva-2b637b241/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div> <!--btn-social-->
+                </div> <!--flex-->
+                </div><!--line-footer-->
+
+            <div class="line-footer borda" >
+                <p><i class="bi bi-envelope-at"></i> <a href="mailto:gabrielfernsilva23@gmail.com">gabrielfernsilva23@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+</html>
